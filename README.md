@@ -1,11 +1,11 @@
-About kopf
-==========
+About kopf-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kopf-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/nolar/kopf
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kopf-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Python framework to write Kubernetes operators in just a few lines of code 
 
