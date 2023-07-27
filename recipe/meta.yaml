@@ -1,5 +1,5 @@
 {% set name = "kopf" %}
-{% set version = "1.36.1" %}
+{% set version = "1.36.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1a9451fde1ddef97f863391154e6e26cb90a5419974868e2c86c15c734beea88
+  sha256: 801e84671145fd19d2a2fcbc4a934ae8f6cd3bca966fc437099f815f7ab11e84
 
 build:
   noarch: python
