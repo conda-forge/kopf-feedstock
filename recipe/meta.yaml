@@ -12,12 +12,13 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
     - setuptools-scm
   run:
     - python >={{ python_min }}
@@ -28,7 +29,7 @@ requirements:
     - aiohttp <4.0.0
     - pyyaml
     - pykube-ng
-    - kubernetes
+    - python-kubernetes
 
 test:
   imports:
